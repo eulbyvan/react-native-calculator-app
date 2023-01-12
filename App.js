@@ -17,7 +17,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        {/* Status bae here */}
+        {/* Status bar here */}
         <SafeAreaView>
           <Text style={styles.value}>
             {parseFloat(this.state.currentValue).toLocaleString()}
